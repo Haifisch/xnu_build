@@ -7,5 +7,5 @@ I plan to put up a full envoirment setup guide here, for OS X, Otherwise winocm'
 
 Dependencies
 ============
-	- mkimage
-		brew install u-boot-tools
+- mkimage
+	brew install u-boot-tools
