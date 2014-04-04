@@ -1,0 +1,6 @@
+[submodule "xnu"]
+	path = xnu
+	url = https://github.com/darwin-on-arm/xnu.git
+[submodule "GenericBooter"]
+	path = GenericBooter
+	url = https://github.com/darwin-on-arm/GenericBooter.git
