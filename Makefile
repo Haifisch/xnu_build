@@ -14,4 +14,4 @@ img3:
 	image3maker --create --imagefile GenericBooter/mach.img3 --type krnl --data xnu/BUILD/obj/mach.debug.armpba8
 
 qemu-run:
-	qemu-system-arm -machine $(MACHINE) -m $(QEMU_MEMORY) -kernel $(BOOTABLE) -append $(BOOTARGS) -serial stdio -nographics
+	qemu-system-arm -machine $(MACHINE) -m $(QEMU_MEMORY) -kernel $(BOOTABLE) -append $(BOOTARGS) -serial stdio
